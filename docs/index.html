@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Cards de Implantação na Central de Ocorrências — resposta</title>
+<style>
+  :root{--azul:#0055FF;--navy:#080E32;--coral:#FC6058;--cinza:#5b6075;--linha:#e3e6ef;--fundo:#f6f8fc}
+  *{box-sizing:border-box}
+  body{margin:0;font-family:system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;color:var(--navy);background:#fff;line-height:1.55}
+  header{background:var(--navy);color:#fff;padding:32px 24px}
+  header h1{margin:0 0 6px;font-size:1.5rem}
+  header p{margin:0;opacity:.8;font-size:.95rem}
+  main{max-width:860px;margin:0 auto;padding:24px}
+  section{margin:0 0 28px}
+  h2{font-size:1.15rem;margin:0 0 10px;padding-bottom:6px;border-bottom:2px solid var(--azul)}
+  .kpis{display:flex;gap:12px;flex-wrap:wrap;margin:12px 0}
+  .kpi{flex:1 1 150px;background:var(--fundo);border:1px solid var(--linha);border-radius:10px;padding:12px 14px}
+  .kpi b{display:block;font-size:1.6rem;color:var(--azul)}
+  .kpi span{font-size:.85rem;color:var(--cinza)}
+  table{width:100%;border-collapse:collapse;font-size:.92rem;margin:8px 0}
+  th,td{text-align:left;padding:8px 10px;border-bottom:1px solid var(--linha);vertical-align:top}
+  th{background:var(--fundo);font-weight:600}
+  td.n{text-align:right;white-space:nowrap}
+  .nota{background:#fff4f3;border-left:4px solid var(--coral);padding:10px 14px;border-radius:6px;font-size:.92rem}
+  .ok{background:#eef4ff;border-left:4px solid var(--azul);padding:10px 14px;border-radius:6px}
+  footer{color:var(--cinza);font-size:.8rem;text-align:center;padding:20px}
+</style>
+</head>
+<body>
+<header>
+  <h1>Verificar cards de Implantação abertos em ocorrência</h1>
+  <p>Resposta da Qualidade de Operação · dados do app de Ocorrências e Multas em 13/11/2026</p>
+</header>
+<main>
+
+<section>
+  <h2>1. O que foi feito em agosto</h2>
+  <p>O comentário de 12/08 ficou mal escrito: não houve pedido de remoção a outra pessoa nem a outro kanban. A tarefa era arrumar o nosso próprio kanban de ocorrências — tirar duplicados, excluir cards errados e ajustar as regras à régua v2 — e isso foi feito direto no app entre 12 e 18/08. Cada exclusão ficou registrada no próprio card, com data, responsável e motivo.</p>
+  <table>
+    <thead><tr><th>Data</th><th>O que foi feito</th><th class="n">Cards</th></tr></thead>
+    <tbody>
+      <tr><td>12/08</td><td>Estrutura do kanban: coluna "Aguardando Evidências" retirada (estava vazia) e "Aplicação de Pontuação" renomeada para <b>Finalizados</b></td><td class="n">—</td></tr>
+      <tr><td>12 e 14/08</td><td>Cards de teste de integração excluídos</td><td class="n">2</td></tr>
+      <tr><td>14/08</td><td>Revisão pela régua v2 — Implantação 10.2 acima do teto de 1 ocorrência por franquia/mês</td><td class="n">5</td></tr>
+      <tr><td>14/08</td><td>Revisão pela régua v2 — Comentários sem franquia identificada ou com avaliação positiva</td><td class="n">3</td></tr>
+      <tr><td>17 e 18/08</td><td>Duplicados de vistoria do Gestor Regional consolidados em um card por imóvel por mês</td><td class="n">11</td></tr>
+      <tr><td>17/08</td><td>Duplicado de Implantação (mesmo fato relatado duas vezes) consolidado</td><td class="n">1</td></tr>
+    </tbody>
+  </table>
+  <div class="ok"><b>Total: 22 cards</b> excluídos ou consolidados, além da mudança de estrutura do kanban.</div>
+</section>
+
+<section>
+  <h2>2. Ocorrências de Implantação abertas — ficam pela régua v2</h2>
+  <p>Sim, ficam. Implantação é a categoria 2 da régua v2 (motivos 2.1 e 2.2), e o 10.9 também faz parte da régua. Esses cards não são resto de agosto: são abertos e tratados pela própria área de Implantação, que faz a triagem, cobra a franquia e decide cada um dentro do fluxo normal.</p>
+  <div class="kpis">
+    <div class="kpi"><b>9</b><span>abertas hoje (8 em Primeiro contato, 1 em Segundo contato)</span></div>
+    <div class="kpi"><b>8</b><span>com justificativa válida em 10 e 12/11</span></div>
+    <div class="kpi"><b>4</b><span>pontuadas em 10 e 12/11</span></div>
+    <div class="kpi"><b>2</b><span>excluídas na triagem de 10/11</span></div>
+  </div>
+  <table>
+    <thead><tr><th>Motivo (régua v2)</th><th>Etapa</th><th class="n">Abertas</th></tr></thead>
+    <tbody>
+      <tr><td>2.2 — Atraso em etapas da implantação por mais de 2 dias</td><td>Primeiro contato</td><td class="n">5</td></tr>
+      <tr><td>2.1 — Vistoria de entrada ou migração com dados incorretos ou incompletos</td><td>Primeiro contato</td><td class="n">2</td></tr>
+      <tr><td>2.1 — Vistoria de entrada ou migração com dados incorretos ou incompletos</td><td>Segundo contato</td><td class="n">1</td></tr>
+      <tr><td>10.9 — Descumprimento de processo operacional após notificação formal</td><td>Primeiro contato</td><td class="n">1</td></tr>
+    </tbody>
+  </table>
+  <p style="font-size:.9rem;color:var(--cinza)">A contagem de 13 bate com o kanban de 12/11 antes das 16h22. Nesse horário, 5 cards saíram de Primeiro contato (4 com justificativa válida e 1 pontuado).</p>
+</section>
+
+<section>
+  <h2>3. Os 86 cards em "Aplicação de pontuação"</h2>
+  <p>Eles não estão parados. <b>"Aplicação de pontuação" é a coluna final do kanban</b>. No banco ela continua com o nome antigo (<code>aplicacao-pontuacao</code>), mas na tela aparece como <b>Finalizados</b> desde 12/08.</p>
+  <table>
+    <thead><tr><th>Grupo</th><th class="n">Cards</th><th>Situação</th></tr></thead>
+    <tbody>
+      <tr><td>Criados em junho e julho (régua v1)</td><td class="n">84</td><td>Já aplicados, com mês de aplicação entre junho e agosto, e já contados na pontuação</td></tr>
+      <tr><td>Criados em setembro e novembro (régua v2)</td><td class="n">2</td><td>Finalizados</td></tr>
+    </tbody>
+  </table>
+  <div class="nota"><b>Plano:</b> esses cards ficam onde estão. O cálculo de multa lê essa coluna; se os cards fossem movidos, as ocorrências deixariam de contar no histórico da franquia sem nenhum aviso na tela.</div>
+</section>
+
+<section>
+  <h2>Conclusão</h2>
+  <p>A limpeza foi concluída em agosto. As ocorrências de Implantação abertas seguem a régua v2, e os 86 cards estão finalizados. Card concluído.</p>
+</section>
+
+</main>
+<footer>Qualidade de Operação · Seazone · fonte: app Central de Ocorrências e Multas (consulta de 13/11/2026)</footer>
+</body>
+</html>
